@@ -58,3 +58,89 @@
 .btn:hover{
     background-color: rgb(184, 69, 69);
 }
+.about{
+    display: flex;
+    justify-content: center;
+}
+.banner-container2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+}
+.about-container{
+    color: white;
+    background: linear-gradient(248.6deg, rgb(254, 99, 132) 0%, rgb(49, 52, 56) 99.8%);
+
+    font-size: 30px;
+}
+.box{
+    width: 240px;
+    height: 320px;
+    box-shadow: 4px 4px 15px black;
+    background: linear-gradient(109.6deg, rgb(72, 200, 160) 11.2%, rgb(32, 40, 48) 91.3%);
+    color: white;
+    text-align: center;
+}
+.icon{
+    width: 70px; 
+    padding-top: 10px;
+}
+.icon-btn{
+    padding:10px 15px;
+    border: none;
+    color: white;
+    background-color: grey;
+    margin-top: 15px;
+
+}
+.box-title{
+   padding: 10px;
+}
+.box-para{
+    padding: 10px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.service-bg{
+    background: linear-gradient(109.6deg, rgb(72, 200, 160) 11.2%, rgb(32, 40, 48) 91.3%);
+    height: 100vh;
+
+}
+.service>h1{
+    color: white;
+    text-align: center;
+    padding-bottom: 56px;
+    padding-top: 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.footer{
+    background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
+    color: white;
+    list-style: none;
+
+}
+.main-footer{
+    display: flex;
+    justify-content: space-around;
+    height: 40vh;
+    
+}
+.row{
+    padding: 70px;
+    cursor: pointer;
+}
+.main-footer>.row>h3{
+    padding-bottom: 10px;
+}
+.footer-photo{
+    width: 120px;
+}
+.copyright{
+    text-align: center;
+    padding: 50px;
+}
